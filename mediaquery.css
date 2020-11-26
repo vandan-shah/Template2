@@ -1,0 +1,39 @@
+@media (max-width: 1600px) {
+    /* Perfect */
+}
+
+@media (max-width: 1200px) {
+    /* Perfect */
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 2rem 7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        top: 30%;
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 18px;
+    }
+
+    .row {
+        width: 320px;
+    }
+
+    /********************** HEADER **********************/
+    .content {
+        top: 25%;
+    }
+
+    form {
+        border: 1px solid transparent;
+    }
+}

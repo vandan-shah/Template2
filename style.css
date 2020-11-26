@@ -11,7 +11,7 @@ html {
 }
 
 .row {
-    width: 1600px;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,55 +20,75 @@ section {
     margin-top: 2rem;
 }
 
-/* HEADER */
-/*
-header {
-    position: relative;
-}
-*/
+/*************************** HEADER ****************************/
+
 .content {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 5rem;
-    background-color: #eee;
+    padding: 2rem 9rem;
+    background-color: #f6f6f6;
 }
 
 img {
     display: flex;
-    height: 100px;
-    width: 200px;
+    height: 5rem;
+    width: 10rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+form {
+    background-color: #eee;
+    padding: 2rem;
+    border: 1px solid #aaa;
 }
 
 form label {
     display: block;
     margin-bottom: 0.3rem;
+    font-size: 0.9rem;
 }
 
 form input {
     display: block;
-    border-radius: 0.3rem;
-    padding: 0.5rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem 1.5rem;
     font-size: 1rem;
+    background-image: none;
+    border: 1px solid #ddd;
 }
 
 form a {
     display: block;
     margin-bottom: 0.7rem;
+    text-decoration: none;
+    color: #0275d8;
+    font-size: 0.8rem;
 }
 
 button {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 0.7rem;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
     font-size: 1rem;
     background-color: #0275d8;
     color: #fff;
-    width: 200px;
+    width: 10rem;
     justify-content: center;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.bottom-link {
+    display: block;
+    margin-bottom: 0.7rem;
+    text-decoration: none;
+    color: #0275d8;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
 }
